@@ -1,0 +1,35 @@
+[hooper@Hooper-G5 readers-text]$ java readWrite
+usage: java readWrite readers writers duration [delay]
+  readers - the number of readers
+  writers - the number of writers
+  duration - duration of test in seconds
+  delay - log delay in milliseconds
+[hooper@Hooper-G5 readers-text]$ java readWrite 5 2 1 5
+RAa RBa RCa RDa REa WAa WBa RDb RDc RDr REb REr RCb RCr RAb RAr RBb RDd RBr RDt 
+REd REt RCd RCt RAd RAt RBd RBe WAb RBt WAw RDb WAc WBb WAt WBw WBc RDc WBt RDr 
+REb REr RCb RCr RAb RAr RBb RBr RDd RDt REd REt RCd RCt RAd RAt RBd RBe WAb RBt 
+RDb WAw WAc WBb WAt WBw RDc WBc RDr REb WBt REr RCb RCr RAb RAr RBb RDd RBr RDt 
+REd REt RCd RCt RAd RAt RBd RBe WAb RDb RBt WAw WAc WBb WAt WBw RDc WBc RDr REb 
+WBt REr RCb RCr RAb RAr RBb RBr RDd RDt REd REt RCd RCt RAd RAt RBd RBe WAb RBt 
+RDb WAw WAc WBb WAt WBw WBc RDc WBt RDr REb REr RCb RCr RAb RAr RBb RBr RDd RDt 
+REd REt RCd RCt RAd RAt RBd RBe WAb RBt WAw RDb WAc WBb WAt WBw WBc RDc WBt RDr 
+REb REr RCb RCr RAb RAr RBb RDd RBr RDt REd REt RCd RCt RAd RAt RBd WAb RBe WAw 
+RDb RBt WAc WBb WAt WBw WBc RDc WBt RDr REb REr RCb RCr RAb RAr RBb RBr RDd RDt 
+REd REt RCd RCt RAd RAt RBd RBe WAb RBt WAw RDb WAc WBb WAt WBw WBc RDc WBt RDr 
+REb REr RCb RCr RAb RAr RBb RBr RDd RDt REd REt RCd RCt RAd RAt RBd RBe WAb RBt 
+WAw RDb RBz WAc WBb WAt WBw WAz WBc RDc WBt RDr REb WBz REr RCb RCr RAb RAr RDd 
+RDt REd RDz REt RCd REz RCt RAd RCz RAe RAt RAz 
+[hooper@Hooper-G5 readers-text]$ java readWrite 5 2 1 5
+RAa RBa RCa RDa REa WAa WBa REb REc REr RCb RCr RBb RBr REd REt RDb RDr RAb RCd 
+RAr RBd RCt RBt REb REr RDd RDt RAd RCb RAt RCr RBb RBr REd REt RDb RDr RAb RCd 
+RAr RCt RBd RBt REb REr RDd RDt RAd RCb RAt RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb RDr RAb RAr 
+RCd RCt RBd RBt REb REr RDd RDt RAd RAt RCb RCr RBb RBr REd REt RDb REz RDr RAb 
+RAr RCd RCt RBd RCz RBt RDd RBz RDt RAd RDz RAe WAb RAt WAw RAz WAc WBb WAt WBw 
+WAz WBc WBt WBz 
+[hooper@Hooper-G5 readers-text]$ 
